@@ -1,0 +1,91 @@
+body {
+	max-width: 900px;
+    margin: 0 auto;
+    height: 100vh;
+    font-family: Georgia, serif;
+	font-size: 1.3rem;
+    font-weight: bolder;
+    font-style: italic;
+	background-image: url("../images/background-image.jpg");
+}
+
+.name {
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 0px;
+}
+
+.welcome {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+
+.href {
+	font-size: 15px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.about {
+	color: white;
+	padding-left: 0px;
+	padding-right: 20px;
+}
+
+/* mouse over link */
+.about:hover {
+  color: MediumTurquoise;
+}
+
+/* selected link */
+.about:active {
+  color: DarkTurquoise;
+}
+
+.project {
+  	color: white;
+	padding-left: 0px;
+	padding-right: 20px;
+}
+
+/* visited link */
+/*.project:visited {
+  color: DarkTurquoise;
+}*/
+
+/* mouse over link */
+.project:hover {
+  color: MediumTurquoise;
+}
+
+/* selected link */
+.project:active {
+  color: DarkTurquoise;
+}
+
+.cv {
+	color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/* visited link */
+/*.cv:visited {
+  color: DarkTurquoise;
+}*/
+
+/* mouse over link */
+.cv:hover {
+  color: MediumTurquoise;
+}
+
+/* selected link */
+.cv:active {
+  color: DarkTurquoise;
+}
